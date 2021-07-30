@@ -110,7 +110,6 @@ class App extends React.Component {
           this.state.addRecipe
             ? addNewRecipeForm
             : <button id="add-recipe" onClick={this.toggleAddRecipe}>Add Recipe</button>
-
         }
         {
           this.renderRecipes()
